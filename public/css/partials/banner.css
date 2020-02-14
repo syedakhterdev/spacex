@@ -1,0 +1,9 @@
+/*_ Variables _*/
+/*_ BreakPoints _*/
+.landing-banner {
+  background-color: url("../images/banner-rocket-bg.jpg") center center no-repeat;
+  background-size: cover;
+  height: 500px;
+  padding: 0 25px;
+  width: 100%;
+  height: 455px; }

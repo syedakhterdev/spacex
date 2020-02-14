@@ -1,0 +1,48 @@
+@import "./partials/header.scss";
+@import "./partials/banner";
+@import "./partials/content";
+@import "./partials/footer";
+@import "./partials/variables";
+
+/*----Global CSS Start------*/
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: $default_fontFamily;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul,
+ol,
+li,
+a,
+p {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+a {
+	transition: 0.3s all ease;
+}
+a:hover,
+a:focus, {
+	text-decoration: none;
+	outline: none;
+	box-shadow: none;
+}
+.wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+/*----Global CSS End------*/

@@ -1,0 +1,64 @@
+@import "./variables.scss";
+
+/*--- Form CSS Start ---*/
+.landing-banner {
+    background: url("../images/banner-rocket-bg.jpg") center left no-repeat;
+    background-size: cover;
+    padding: 0 25px;
+    width: 100%;
+    height: 455px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    position: relative;
+    @media(max-width: $small_break) {
+        height: 400px;
+    }
+    .banner-content {
+        max-width: 250px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 1.4;
+        color: $color_light;
+        font-weight: 300;
+        @media(max-width: $small_break) {
+            font-size: 26px;
+        }
+    }
+    .submit-rocket {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+
+.rocket-banner {
+    background: url("../images/rocket-img.jpeg") center center no-repeat;
+    background-size: cover;
+    padding: 0 25px;
+    width: 100%;
+    height: 220px;
+    box-sizing: border-box;
+    position: relative;
+    .rocket-strip {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 15px;
+        text-align: right;
+        .rocket-name {
+            font-size: 16px;
+            color: $color_light;
+            text-align: right;
+        }
+    }
+}
